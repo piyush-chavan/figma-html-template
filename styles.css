@@ -1,0 +1,25 @@
+body{
+    background-image: url(images/background.png);
+}
+
+.navbar{
+    margin: 0 10% 0 10%;
+    height: 100px;
+}
+
+.container-1{
+    width: 20%;
+}
+
+.container-2{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.container-3{
+    width: 30%;
+}
+
+
+
