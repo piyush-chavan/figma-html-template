@@ -26,22 +26,28 @@
 .nav-button-1 {
     color: #96BB7C;
     margin-right: 4px;
+    margin-top: 10px;
 }
 
 .nav-button-2 {
     background-color: #96BB7C;
     border-radius: 5px;
     font-family: inherit;
+    margin-top: 10px;
 }
 
 /* .container-3 {
     
 } */
 
-.box{
+.box {
     background-color: rgb(255, 255, 255);
     padding: 30px;
-    margin-top :70px ;
+    margin-top: 70px;
     border: 2px solid crimson;
     border-radius: 5px;
+}
+
+footer{
+    border-top: 1px solid crimson;
 }
