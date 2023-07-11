@@ -71,6 +71,7 @@ margin-top:13vw;}
 
 
 .box{
+    min-height:30vw;
     background-color: rgb(255, 255, 255);
     padding: 3vw;
     margin-top :7vw ;
@@ -78,9 +79,9 @@ margin-top:13vw;}
     /* border-radius: 0.5vw; */
 }
 
-#box1{margin-left:9vw;max-width:25vw}
-#box3{margin-right:9vw;max-width:25vw}
-#box2{max-width:25vw}
+#box1{margin-left:9vw;max-width:25vw;height:auto;}
+#box3{margin-right:9vw;max-width:25vw;height:fit-content}
+#box2{max-width:25vw;height:fit-content}
 
 /* -------------------approdable packages------------------------------------------------- */
 
@@ -111,16 +112,131 @@ margin-top:13vw;}
     /* align-items: center;
     text-align: center; */
 }
-.local1{margin:0vw 0vw 0vw 7.2vw}
-.local {max-height:40vw;display: flex;flex-direction: row;}
+.local1{margin:0vw 0vw 0vw 7.2vw;top: 4vw;position: relative;}
+.local {max-height:40vw;display: flex;flex-direction: row;margin-top:4vw;}
 .local2{margin:8vw 0vw 0vw 12vw;}
 .local h1{font-size: 3.5vw;font-style: none;font-weight: 100;font-weight: 500;opacity: 0.9;}
-.local1 img{height:95%;}
+.local1 img{height:72%;}
 .local2 h3{font-size: 1.4vw;opacity: 0.6;word-spacing: 1vw;}
 /* .global2 p{font-size: 1.7vw;opacity: 0.6;word-spacing: 1vw;padding:0.7vw 0vw 0vw 0vw;} */
 #l1{display: flex;flex-direction: row;}
 #l1 a{color: #55a81a;opacity: 1;}
 #l1 img {height:1%;position:relative;top:0.3vw;left:1vw;}
+
+/* ---------------------------courses-------------------- */
+.courses{margin-top: 13vw;margin-left: 12vw;}
+.courses h1{font-size: 3.5vw;font-style: none;font-weight: 100;font-weight: 500;opacity: 0.9;}
+.courses h3{font-size: 1.4vw;opacity: 0.6;word-spacing: 1vw;}
+#c1{color: #55a81a;opacity: 1;}
+
+.maincard{display: flex;flex-direction: row;margin-top:3vw;}
+.card{margin-top:2vw;}
+.sale1 {
+    position:relative;
+    height: 2vw;
+    width: 5vw;
+    top:2vw;
+    left:1vw
+}
+.heart1{
+    position:relative;
+    height: 3vw;
+    width: 3w;
+    margin-right:1vw;
+    /* top:3vw;} */
+}
+.basket1{
+    position:relative;
+    height: 3vw;
+        width: 3vw;
+        margin-right:1vw;
+        /* top:3vw;} */
+}
+.eye1{
+    position:relative;
+    height: 3vw;
+            width: 3vw;
+            /* top:3vw;} */
+}
+.combined{position: relative;top:18.5vw;left:4vw}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+    margin-top: -5vw;
+}
+.card {border:none;margin-left: 2vw;}
+.instruction{display:flex;flex-direction: row;}
+.instruction p{font-size: 1.4vw;color: rgb(57, 188, 57);}
+.instruction img{height: 2vw;width:4vw;margin-left:1.2vw;}
+.card-text{font-size:1.2vw;word-spacing: 0.5vw;letter-spacing:0.07vw;opacity:0.6}
+.card-body{position:relative;margin-left:0.7vw;}
+.download{display:flex;flex-direction: row;}
+.download img {height:1.5vw;width:1.5vw;}
+.download p{margin-left:1.4vw;font-weight: 500;opacity:0.7;font-size: 1.3vw;}
+.price{display:flex;flex-direction: row;}
+/* .learn{display:flex;flex-direction: row;} */
+.learn img{top:-0.1vw;position:relative;height:1vw;}
+.learn button{font-size: 1.2vw;}
+
+.testimonials{margin-top: 13vw;margin-left: 12vw;}
+.testimonials h1{font-size: 3.5vw;font-style: none;font-weight: 100;font-weight: 500;opacity: 0.9;}
+.testimonials h3{font-size: 1.4vw;opacity: 0.6;word-spacing: 1vw;}
+#test1{color: #55a81a;opacity: 1;}
+#regimaimg{height:5vw;width:5vw}
+
+
+.expert{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 242, 243);
+}
+
+.expert p{font-size: 1.4vw;color: rgb(57, 188, 57);}
+.buttonIn {
+    width: 90%;
+    position: relative;
+    margin: 2%;
+  }
+  .expert h3 {
+    font-size: 1.4vw;
+    opacity: 0.6;
+    word-spacing: 1vw;
+}
+
+  input {
+    padding: 3%;
+    width: 63%;
+    outline: none;
+    height: 30px;
+    /* border-radius: 8vw; */
+     border-width: 0.1vw;
+    background-color: white;
+    font-size: 2vw;
+    padding-left: 7%;
+    letter-spacing:0.3vw;
+  }
+  .mail {
+    left:73.33vw;
+    position: absolute;
+    margin-top:-0.6vw;
+    border-width: 0.1vw;
+    /* border-radius: 8vw; */
+    right: 0%;
+    z-index: 2;
+    border: none;
+    top: 10%;
+    padding: 2%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(151, 187, 124, 1);
+    /* transform: translateX(-0.5rem); */
+  }
+  
+
+
 
 
 
